@@ -27,6 +27,13 @@ h1{
     margin-bottom: 8px;
 }
 
+h2{
+font-size: 36px;
+font-weight: 900;
+color: #1F2937;
+text-align: center;
+}
+
 button{
     background-color: #3882f6;
     border:0px;
@@ -59,6 +66,11 @@ font-weight: 900;
 margin-left: 100px;
 }
 
+#information-cards{
+    display: flex;
+    justify-content: center;
+}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -87,6 +99,22 @@ margin-left: 100px;
 
 .header-container{
     width: 50%;
+}
+
+.card{
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.image-placeholder{
+    width: 80%;
+    height: 100%;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    flex-shrink: 0;
 }
 
 .footer{
