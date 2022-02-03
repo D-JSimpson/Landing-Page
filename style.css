@@ -91,4 +91,9 @@ margin-left: 100px;
 
 .footer{
     margin-top: auto;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
 }
