@@ -5,6 +5,28 @@ body{
     margin:0px;
 }
 
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+p{
+margin:0px;
+}
+a{
+    text-decoration: none;
+}
 .footer{
     margin-top: auto;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-links{
+    margin-left: auto;
 }
