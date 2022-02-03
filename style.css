@@ -75,6 +75,21 @@ height: 100vh;
     margin:48px;
 }
 
+#quote{
+    background-color: #E5E7EB;
+    height: 40%;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#quote-text{
+    font-size: 36px;
+    font-style: oblique 10deg;
+    color:#1F2937
+}
+
 .header{
     display: flex;
     flex-direction: column;
